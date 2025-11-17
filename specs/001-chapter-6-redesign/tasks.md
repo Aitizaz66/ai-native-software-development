@@ -77,17 +77,17 @@ description: "Implementation tasks for Chapter 6 Redesign - Gemini CLI"
 
 **Independent Test**: Student successfully runs gemini command and executes !ls command
 
-- [ ] T022 [US1] Read existing lesson at book-source/docs/02-AI-Tool-Landscape/06-gemini-cli-installation-and-basics/02-installation-authentication-first-steps.md
-- [ ] T023 [US1] Add CEFR level metadata (A2 Beginner) to lesson frontmatter
-- [ ] T024 [US1] Add 6 learning objectives with Bloom's taxonomy levels to frontmatter
-- [ ] T025 [US1] Map all learning objectives to DigComp 2.2 competency areas in frontmatter
-- [ ] T026 [US1] Add Stage 1 (Manual Foundation) tag to lesson metadata
-- [ ] T027 [US1] Add shell mode (!command) example with terminal execution log (FR-005)
-- [ ] T028 [US1] Include platform-specific installation instructions (Windows, macOS, Linux)
-- [ ] T029 [US1] Add OAuth authentication walkthrough with screenshots (if available) or detailed steps
-- [ ] T030 [US1] Document free tier limits (60 req/min, 1000 req/day) with citation
-- [ ] T031 [US1] Ensure "Try With AI" section uses preferred tool instruction
-- [ ] T032 [US1] Attach terminal logs from T005 for all basic commands shown
+- [X] T022 [US1] Read existing lesson at book-source/docs/02-AI-Tool-Landscape/06-gemini-cli-installation-and-basics/02-installation-authentication-first-steps.md
+- [X] T023 [US1] Add CEFR level metadata (A2 Beginner) to lesson frontmatter
+- [X] T024 [US1] Add 6 learning objectives with Bloom's taxonomy levels to frontmatter
+- [X] T025 [US1] Map all learning objectives to DigComp 2.2 competency areas in frontmatter
+- [X] T026 [US1] Add Stage 1 (Manual Foundation) tag to lesson metadata
+- [X] T027 [US1] Add shell mode (!command) example with terminal execution log (FR-005)
+- [X] T028 [US1] Include platform-specific installation instructions (Windows, macOS, Linux)
+- [X] T029 [US1] Add OAuth authentication walkthrough with screenshots (if available) or detailed steps
+- [X] T030 [US1] Document free tier limits (60 req/min, 1000 req/day) with citation
+- [X] T031 [US1] Ensure "Try With AI" section uses preferred tool instruction
+- [X] T032 [US1] Attach terminal logs from T005 for all basic commands shown
 
 **Checkpoint**: Lesson 2 has complete metadata, shell mode example included, all commands verified
 
