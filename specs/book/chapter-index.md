@@ -1,15 +1,16 @@
 # CoLearning Python & Agentic AI: Chapter Index
 
-**84 chapters across 12 parts**
+**86 chapters across 12 parts** (Updated 2025-01-24)
 
 Reference this document when naming and organizing chapter files. Use the chapter number in directory names: `[chapter-number]-[chapter-name]/`
 
 **Implementation Status**:
-- ✅ **Implemented** (33 chapters): Chapters 1-7, 9-34 have content directories created
+- ✅ **Implemented** (33 chapters): Chapters 1-7, 9-12, 13 (was 31), 14 (was 32, needs pivot), 16-33 (was 13-30), 35 (was 33)
   - **Parts 1-3**: Complete (11 chapters)
-  - **Part 4 (Python Fundamentals)**: Complete (18 chapters, 12-29)
-  - **Part 5 (Spec-Driven Development)**: Complete (4 chapters, 30-33)
-- 📋 **Planned** (51 chapters): Chapter 8, Chapters 35-84 are planned but not yet created
+  - **Part 4 (SDD-RI Fundamentals)**: Ch 13 ✅, Ch 14 needs pivot 🔄, Ch 15 📋 NEW
+  - **Part 5 (Python Fundamentals)**: Complete content exists, needs renumbering (18 chapters, 16-33)
+  - **Part 6 (AI Product Leadership)**: Ch 35 exists ✅, Ch 34, 36 📋 NEW
+- 📋 **Planned** (53 chapters): Chapter 8, Chapters 15, 34, 36-86 are planned but not yet created
 
 ---
 
@@ -34,7 +35,7 @@ Tool literacy and comparison: deep dive into specific platforms
 |---|---------------|-----------|--------|
 | 5 | How It All Started: The Claude Code Phenomenon | `05-claude-code-features-and-workflows/` | ✅ Implemented |
 | 6 | Google Gemini CLI: Open Source and Everywhere | `06-gemini-cli-installation-and-basics/` | ✅ Implemented |
-| 7 | Bash Essentials for AI-Driven Development | `07-bash-essentials/` | ✅ Refined & Validated (100% compliance) |
+| 7 | Bash Essentials for AI-Driven Development | `07-bash-essentials/` | ✅ Implemented |
 | 8 | AI-Native IDEs: Zed, Cursor, and the Future of Development | `08-ai-native-ides/` | 📋 Planned |
 | 9 | Git and GitHub: Version Control for AI Developers | `09-git-and-github/` | ✅ Implemented |
 
@@ -52,156 +53,162 @@ Effective AI communication: markdown fundamentals, prompting and context managem
 
 ---
 
-## Part 4: Python Fundamentals (Chapters 13-30)
+## Part 4: SDD-RI Fundamentals - Write Specs and Build AI Product Thinking (Chapters 13-15)
 
-Core language skills: production-quality Python with AIDD
-
-| # | Chapter Title | File Name | Status |
-|---|---------------|-----------|--------|
-| 13 | Python UV: Fastest Python Package Manager | `13-python-uv-package-manager/` | ✅ Implemented (Zed content moved to Ch 8) |
-| 14 | Introduction to Python | `14-introduction-to-python/` | ✅ Implemented |
-| 15 | Data Types | `15-data-types/` | ✅ Implemented |
-| 16 | Operators, Keywords, and Variables | `16-operators-keywords-variables/` | ✅ Implemented |
-| 17 | Strings and Type Casting | `17-strings-type-casting/` | ✅ Implemented |
-| 18 | Control Flow and Loops | `18-control-flow-loops/` | ✅ Implemented |
-| 19 | Lists, Tuples, and Dictionary | `19-lists-tuples-dictionary/` | ✅ Implemented |
-| 20 | Set, Frozen Set, and GC | `20-set-frozenset-gc/` | ✅ Implemented |
-| 21 | Module and Functions | `21-module-functions/` | ✅ Implemented |
-| 22 | Exception Handling | `22-exception-handling/` | ✅ Implemented |
-| 23 | IO and File Handling | `23-io-file-handling/` | ✅ Implemented |
-| 24 | Math, Date Time Calendar | `24-math-datetime-calendar/` | ✅ Implemented |
-| 25 | Object-Oriented Programming Part I | `25-oop-part-1/` | ✅ Implemented |
-| 26 | Object-Oriented Programming Part II | `26-oop-part-2/` | ✅ Implemented |
-| 27 | Meta Classes and Data Classes | `27-metaclasses-dataclasses/` | ✅ Implemented |
-| 28 | Pydantic and Generics | `28-pydantic-generics/` | ✅ Implemented |
-| 29 | Asyncio | `29-asyncio/` | ✅ Implemented |
-| 30 | CPython and GIL | `30-cpython-gil/` | ✅ Implemented |
-
----
-
-## Part 5: Spec-Driven Development (Chapters 31-34)
-
-Professional development workflow: specifications and planning
+Learn specification-driven development with reusable intelligence, culminating in building your own AI product with business thinking
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
-| 31 | Understanding Spec-Driven Development | `31-specification-driven-development-fundamentals/` | ✅ Implemented |
-| 32 | Spec-Kit Plus Hands-On | `32-spec-kit-plus-hands-on/` | ✅ Implemented |
-| 33 | AI Orchestration: Agent Teams and Manager Patterns | `33-ai-orchestra-agent-teams-manager/` | ✅ Implemented |
-| 34 | The Tessl Vision: Spec-as-Source | `34-tessl-framework-and-integration/` | 📋 Planned |
+| 13 | Understanding Spec-Driven Development with Reusable Intelligence | `13-specification-driven-development-fundamentals/` | ✅ Implemented (was Ch 31) |
+| 14 | SDD-RI Hands-On: YouTube Content Workflow with Gemini | `14-youtube-content-workflow-gemini/` | 🔄 Needs Pivot (was Ch 32, change from Python to YouTube/Gemini) |
+| 15 | AI Product & Business Intelligence + Capstone | `15-ai-product-business-intelligence-capstone/` | 📋 NEW - Business thinking + open-ended capstone project |
 
 ---
 
-## Part 6: AI Native Software Development (Chapters 35-50)
+## Part 5: Python Fundamentals (Chapters 16-33)
 
-Building AI-native applications with agentic architectures, evaluation, and production patterns
+Core language skills: production-quality Python with AIDD and SDD-RI mindset
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
-| 35 | Introduction to AI Agents | `35-introduction-to-ai-agents/` | 📋 Planned |
-| 36 | OpenAI Agents SDK Development using AIDD and SDD | `36-openai-agents-sdk-development/` | 📋 Planned |
-| 37 | Google ADK Development using AIDD and SDD | `37-google-adk-development/` | 📋 Planned |
-| 38 | Anthropic Agents Kit Development using AIDD and SDD | `38-anthropic-agents-kit-development/` | 📋 Planned |
-| 39 | MCP Fundamentals | `39-mcp-fundamentals/` | 📋 Planned |
-| 40 | MCP Server Development using AIDD and SDD | `40-mcp-server-development/` | 📋 Planned |
-| 41 | Code Execution with MCP: Building More Efficient Agents | `41-code-execution-with-mcp/` | 📋 Planned |
-| 42 | FastAPI for Agents (Primer) | `42-fastapi-for-agents-primer/` | 📋 Planned |
-| 43 | Test-Driven Agent Development (TDD) & Contracts | `43-test-driven-agent-development-tdd/` | 📋 Planned |
-| 44 | Evals | `44-evals/` | 📋 Planned |
-| 45 | Building Effective Agents (Design Patterns) | `45-building-effective-agents-design-patterns/` | 📋 Planned |
-| 46 | Memory & State for Agents | `46-memory-state-for-agents/` | 📋 Planned |
-| 47 | Combo Agentic Pattern using AIDD and SDD | `47-combo-agentic-pattern/` | 📋 Planned |
-| 48 | Vector Databases and RAG for AI Agents | `48-vector-databases-and-rag/` | 📋 Planned |
-| 49 | Relational Databases for AI Agents | `49-relational-databases-for-ai-agents/` | 📋 Planned |
-| 50 | Graph Databases and Graph RAG for AI Agents | `50-graph-databases-and-graph-rag/` | 📋 Planned |
+| 16 | Python UV: Fastest Python Package Manager | `16-python-uv-package-manager/` | ✅ Implemented (was Ch 13) |
+| 17 | Introduction to Python | `17-introduction-to-python/` | ✅ Implemented (was Ch 14) |
+| 18 | Data Types | `18-data-types/` | ✅ Implemented (was Ch 15) |
+| 19 | Operators, Keywords, and Variables | `19-operators-keywords-variables/` | ✅ Implemented (was Ch 16) |
+| 20 | Strings and Type Casting | `20-strings-type-casting/` | ✅ Implemented (was Ch 17) |
+| 21 | Control Flow and Loops | `21-control-flow-loops/` | ✅ Implemented (was Ch 18) |
+| 22 | Lists, Tuples, and Dictionary | `22-lists-tuples-dictionary/` | ✅ Implemented (was Ch 19) |
+| 23 | Set, Frozen Set, and GC | `23-set-frozenset-gc/` | ✅ Implemented (was Ch 20) |
+| 24 | Module and Functions | `24-module-functions/` | ✅ Implemented (was Ch 21) |
+| 25 | Exception Handling | `25-exception-handling/` | ✅ Implemented (was Ch 22) |
+| 26 | IO and File Handling | `26-io-file-handling/` | ✅ Implemented (was Ch 23) |
+| 27 | Math, Date Time Calendar | `27-math-datetime-calendar/` | ✅ Implemented (was Ch 24) |
+| 28 | Object-Oriented Programming Part I | `28-oop-part-1/` | ✅ Implemented (was Ch 25) |
+| 29 | Object-Oriented Programming Part II | `29-oop-part-2/` | ✅ Implemented (was Ch 26) |
+| 30 | Meta Classes and Data Classes | `30-metaclasses-dataclasses/` | ✅ Implemented (was Ch 27) |
+| 31 | Pydantic and Generics | `31-pydantic-generics/` | ✅ Implemented (was Ch 28) |
+| 32 | Asyncio | `32-asyncio/` | ✅ Implemented (was Ch 29) |
+| 33 | CPython and GIL | `33-cpython-gil/` | ✅ Implemented (was Ch 30) |
+
+**Note**: Each chapter should add "Section 0: Specification Before Implementation" (5-10 min) to reinforce SDD-RI mindset learned in Part 4.
 
 ---
 
-## Part 7: AI Cloud Native Development with AIDD and SDD (Chapters 51-62)
+## Part 6: SDD-RI AI Product Leadership & Engineering with Agent Teams (Chapters 34-36)
+
+Apply SDD-RI to AI product development at scale: evaluation-first mindset, team orchestration, and leadership
+
+| # | Chapter Title | File Name | Status |
+|---|---------------|-----------|--------|
+| 34 | AI Product Development & Evaluation-First Mindset | `34-ai-product-development-evaluation-first/` | 📋 NEW (merged concepts from old Ch 33+34) |
+| 35 | AI Orchestra: Managing Agent Teams | `35-ai-orchestra-agent-teams-manager/` | ✅ Implemented (was Ch 33) |
+| 36 | Product & Engineering Leadership for AI Systems | `36-product-engineering-leadership-ai/` | 📋 NEW |
+
+---
+
+## Part 7: AI Native Software Development (Chapters 37-52)
+
+Building AI-native applications with agentic architectures, SDKs, and production patterns
+
+| # | Chapter Title | File Name | Status |
+|---|---------------|-----------|--------|
+| 37 | Introduction to AI Agents | `37-introduction-to-ai-agents/` | 📋 Planned (was Ch 35) |
+| 38 | OpenAI Agents SDK Development using AIDD and SDD | `38-openai-agents-sdk-development/` | 📋 Planned (was Ch 36) |
+| 39 | Google ADK Development using AIDD and SDD | `39-google-adk-development/` | 📋 Planned (was Ch 37) |
+| 40 | Anthropic Agents Kit Development using AIDD and SDD | `40-anthropic-agents-kit-development/` | 📋 Planned (was Ch 38) |
+| 41 | MCP Fundamentals | `41-mcp-fundamentals/` | 📋 Planned (was Ch 39) |
+| 42 | MCP Server Development using AIDD and SDD | `42-mcp-server-development/` | 📋 Planned (was Ch 40) |
+| 43 | Code Execution with MCP: Building More Efficient Agents | `43-code-execution-with-mcp/` | 📋 Planned (was Ch 41) |
+| 44 | FastAPI for Agents (Primer) | `44-fastapi-for-agents-primer/` | 📋 Planned (was Ch 42) |
+| 45 | Schema-Enforced Generation & Reliability Patterns | `45-schema-enforced-generation-reliability/` | 📋 Planned (moved from Part 6 Ch 35) |
+| 46 | Test-Driven Agent Development (TDD) & Contracts | `46-test-driven-agent-development-tdd/` | 📋 Planned (was Ch 43) |
+| 47 | Evals | `47-evals/` | 📋 Planned (was Ch 44) |
+| 48 | Memory & State for Agents | `48-memory-state-for-agents/` | 📋 Planned (was Ch 46) |
+| 49 | Combo Agentic Pattern using AIDD and SDD | `49-combo-agentic-pattern/` | 📋 Planned (was Ch 47) |
+| 50 | Vector Databases and RAG for AI Agents | `50-vector-databases-and-rag/` | 📋 Planned (was Ch 48) |
+| 51 | Relational Databases for AI Agents | `51-relational-databases-for-ai-agents/` | 📋 Planned (was Ch 49) |
+| 52 | Graph Databases and Graph RAG for AI Agents | `52-graph-databases-and-graph-rag/` | 📋 Planned (was Ch 50) |
+
+**Note**: Chapter 45 (Building Effective Agents Design Patterns) deleted as redundant with Part 4 RI design + Part 6 orchestration.
+
+---
+
+## Part 8: AI Cloud Native Development with AIDD and SDD (Chapters 53-64)
 
 Production deployment, infrastructure, and operational excellence for AI systems
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
-| 51 | FastAPI for AI Cloud-Native Services with AIDD and SDD (Deep Dive) | `51-fastapi-cloud-native-deep-dive/` | 📋 Planned |
-| 52 | Docker for AI Services: Building, Shipping, and Running Containers | `52-docker-for-ai-services/` | 📋 Planned |
-| 53 | Apache Kafka for Event-Driven AI Systems | `53-apache-kafka-event-driven-ai/` | 📋 Planned |
-| 54 | Kubernetes for AI Services: Orchestrating Containers and Agents | `54-kubernetes-for-ai-services/` | 📋 Planned |
-| 55 | CI/CD & Infrastructure-as-Code for AI Services | `55-cicd-infrastructure-as-code/` | 📋 Planned |
-| 56 | Dapr for AI Microservices: Sidecar Building Blocks | `56-dapr-for-ai-microservices/` | 📋 Planned |
-| 57 | Dapr Actors for Agentic State and Concurrency | `57-dapr-actors-agentic-state/` | 📋 Planned |
-| 58 | Dapr Workflows for Long-Running Orchestration | `58-dapr-workflows-long-running/` | 📋 Planned |
-| 59 | Dapr Agents: Designing Agentic Services on Dapr | `59-dapr-agents-designing-agentic-services/` | 📋 Planned |
-| 60 | Observability, Cost & Performance Engineering | `60-observability-cost-performance/` | 📋 Planned |
-| 61 | API Edge & Gateway for AI Services (Ingress/Kong) | `61-api-edge-gateway-for-ai-services/` | 📋 Planned |
-| 62 | Security, Safety & Governance for Agentic Systems | `62-security-safety-governance/` | 📋 Planned |
+| 53 | FastAPI for AI Cloud-Native Services with AIDD and SDD (Deep Dive) | `53-fastapi-cloud-native-deep-dive/` | 📋 Planned (was Ch 51) |
+| 54 | Docker for AI Services: Building, Shipping, and Running Containers | `54-docker-for-ai-services/` | 📋 Planned (was Ch 52) |
+| 55 | Apache Kafka for Event-Driven AI Systems | `55-apache-kafka-event-driven-ai/` | 📋 Planned (was Ch 53) |
+| 56 | Kubernetes for AI Services: Orchestrating Containers and Agents | `56-kubernetes-for-ai-services/` | 📋 Planned (was Ch 54) |
+| 57 | CI/CD & Infrastructure-as-Code for AI Services | `57-cicd-infrastructure-as-code/` | 📋 Planned (was Ch 55) |
+| 58 | Dapr for AI Microservices: Sidecar Building Blocks | `58-dapr-for-ai-microservices/` | 📋 Planned (was Ch 56) |
+| 59 | Dapr Actors for Agentic State and Concurrency | `59-dapr-actors-agentic-state/` | 📋 Planned (was Ch 57) |
+| 60 | Dapr Workflows for Long-Running Orchestration | `60-dapr-workflows-long-running/` | 📋 Planned (was Ch 58) |
+| 61 | Dapr Agents: Designing Agentic Services on Dapr | `61-dapr-agents-designing-agentic-services/` | 📋 Planned (was Ch 59) |
+| 62 | Observability, Cost & Performance Engineering | `62-observability-cost-performance/` | 📋 Planned (was Ch 60) |
+| 63 | API Edge & Gateway for AI Services (Ingress/Kong) | `63-api-edge-gateway-for-ai-services/` | 📋 Planned (was Ch 61) |
+| 64 | Security, Safety & Governance for Agentic Systems | `64-security-safety-governance/` | 📋 Planned (was Ch 62) |
 
 ---
 
-## Part 8: Turing LLMOps — Proprietary Intelligence (Chapters 63-66)
+## Part 9: Turing LLMOps — Proprietary Intelligence (Chapters 65-68)
 
 Custom model training, fine-tuning, and deployment with Turing platform
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
-| 63 | Proprietary Intelligence with Turing: Concepts & Setup | `63-proprietary-intelligence-turing-concepts/` | 📋 Planned |
-| 64 | Turing Customization Workflow: Prepare → Fine-Tune → Evaluate | `64-turing-customization-workflow/` | 📋 Planned |
-| 65 | Deploy & Integrate: Endpoints, SDKs, and Agent Backends | `65-deploy-integrate-endpoints-sdks/` | 📋 Planned |
-| 66 | Operate in Production: Monitoring, Cost, & Governance | `66-operate-in-production-monitoring/` | 📋 Planned |
+| 65 | Proprietary Intelligence with Turing: Concepts & Setup | `65-proprietary-intelligence-turing-concepts/` | 📋 Planned (was Ch 63) |
+| 66 | Turing Customization Workflow: Prepare → Fine-Tune → Evaluate | `66-turing-customization-workflow/` | 📋 Planned (was Ch 64) |
+| 67 | Deploy & Integrate: Endpoints, SDKs, and Agent Backends | `67-deploy-integrate-endpoints-sdks/` | 📋 Planned (was Ch 65) |
+| 68 | Operate in Production: Monitoring, Cost, & Governance | `68-operate-in-production-monitoring/` | 📋 Planned (was Ch 66) |
 
 ---
 
-## Part 9: TypeScript: The Language of Realtime and Interaction (Chapters 67-72)
+## Part 10: TypeScript: The Language of Realtime and Interaction (Chapters 69-74)
 
 Full-stack AI development: TypeScript fundamentals for frontend and realtime systems
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
-| 67 | Modern TypeScript Essentials (types, unions, generics, narrowing) | `67-modern-typescript-essentials/` | 📋 Planned |
-| 68 | Tooling: tsconfig, esbuild/Vite, pnpm/Bun, project structure | `68-tooling-tsconfig-esbuild-vite/` | 📋 Planned |
-| 69 | Async Patterns in TS: Promises, async/await, streams, AbortController | `69-async-patterns-in-ts/` | 📋 Planned |
-| 70 | Node & Edge Runtimes (Node, Deno, Edge Functions) | `70-node-edge-runtimes/` | 📋 Planned |
-| 71 | HTTP, SSE, and WebSockets in TS (clients & servers) | `71-http-sse-websockets-in-ts/` | 📋 Planned |
-| 72 | Testing in TS (Vitest/Jest) and contract tests | `72-testing-in-ts-vitest-jest/` | 📋 Planned |
+| 69 | Modern TypeScript Essentials (types, unions, generics, narrowing) | `69-modern-typescript-essentials/` | 📋 Planned (was Ch 67) |
+| 70 | Tooling: tsconfig, esbuild/Vite, pnpm/Bun, project structure | `70-tooling-tsconfig-esbuild-vite/` | 📋 Planned (was Ch 68) |
+| 71 | Async Patterns in TS: Promises, async/await, streams, AbortController | `71-async-patterns-in-ts/` | 📋 Planned (was Ch 69) |
+| 72 | Node & Edge Runtimes (Node, Deno, Edge Functions) | `72-node-edge-runtimes/` | 📋 Planned (was Ch 70) |
+| 73 | HTTP, SSE, and WebSockets in TS (clients & servers) | `73-http-sse-websockets-in-ts/` | 📋 Planned (was Ch 71) |
+| 74 | Testing in TS (Vitest/Jest) and contract tests | `74-testing-in-ts-vitest-jest/` | 📋 Planned (was Ch 72) |
 
 ---
 
-## Part 10: Building Agentic Frontends with OpenAI ChatKit and Next.js (Chapters 73-75)
+## Part 11: Building Agentic Frontends and Realtime Systems (Chapters 75-83)
 
-Interactive UI development for AI agents
+Interactive UI development for AI agents, realtime streaming, and voice processing
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
-| 73 | Building Chat UIs (streaming tokens, tool call visualizers) with OpenAI ChatKit | `73-building-chat-uis-openai-chatkit/` | 📋 Planned |
-| 74 | React + Next.js Primer for Agents (server components, actions) | `74-react-nextjs-primer-for-agents/` | 📋 Planned |
-| 75 | Deploy & Preview Environments (Vercel/Netlify patterns) | `75-deploy-preview-environments/` | 📋 Planned |
+| 75 | Building Chat UIs with OpenAI ChatKit | `75-building-chat-uis-openai-chatkit/` | 📋 Planned (was Ch 73) |
+| 76 | React + Next.js Primer for Agents | `76-react-nextjs-primer-for-agents/` | 📋 Planned (was Ch 74) |
+| 77 | Deploy & Preview Environments (Vercel/Netlify) | `77-deploy-preview-environments/` | 📋 Planned (was Ch 75) |
+| 78 | Realtime APIs for Agents (SSE/WebSocket/WebRTC) | `78-realtime-apis-for-agents/` | 📋 Planned (was Ch 76) |
+| 79 | Browser Audio: Capture, VAD, Streaming | `79-browser-audio-capture-vad/` | 📋 Planned (was Ch 77) |
+| 80 | TTS/STT Pipelines (Latency, Duplex Streams) | `80-tts-stt-pipelines/` | 📋 Planned (was Ch 78) |
+| 81 | Multimodal IO (Image/Screen Capture, Tools) | `81-multimodal-io-image-screen/` | 📋 Planned (was Ch 79) |
+| 82 | Mobile & PWA Considerations | `82-mobile-pwa-considerations/` | 📋 Planned (was Ch 80) |
+| 83 | Load, Cost, and QoS for Realtime | `83-load-cost-qos-realtime/` | 📋 Planned (was Ch 81) |
 
 ---
 
-## Part 11: Building Realtime and Voice Agents (Chapters 76-81)
-
-Interactive AI systems: realtime streaming and voice processing
-
-| # | Chapter Title | File Name | Status |
-|---|---------------|-----------|--------|
-| 76 | Realtime APIs (SSE/WebSocket/WebRTC) for agents | `76-realtime-apis-for-agents/` | 📋 Planned |
-| 77 | Browser Audio: capture, VAD, streaming to models | `77-browser-audio-capture-vad/` | 📋 Planned |
-| 78 | TTS/STT pipelines (latency budgets, duplex streams) | `78-tts-stt-pipelines/` | 📋 Planned |
-| 79 | Multimodal IO (image/screen capture, tools) | `79-multimodal-io-image-screen/` | 📋 Planned |
-| 80 | Mobile & PWA considerations (background, mic perms) | `80-mobile-pwa-considerations/` | 📋 Planned |
-| 81 | Load, Cost, and QoS for Realtime (backpressure, fallbacks) | `81-load-cost-qos-realtime/` | 📋 Planned |
-
----
-
-## Part 12: Agentic AI is the Future (Chapters 82-84)
+## Part 12: Agentic AI is the Future (Chapters 84-86)
 
 Emerging patterns and organizational transformation
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
-| 82 | Agentic Web: Open (Nanda and A2A) and Closed Garden (OpenAI App and Apps SDK) | `82-agentic-web-open-closed/` | 📋 Planned |
-| 83 | Agentic Organizations | `83-agentic-organizations/` | 📋 Planned |
-| 84 | Agentic Commerce | `84-agentic-commerce/` | 📋 Planned |
+| 84 | Agentic Web: Open (Nanda and A2A) and Closed Garden (OpenAI App and Apps SDK) | `84-agentic-web-open-closed/` | 📋 Planned (was Ch 82) |
+| 85 | Agentic Organizations | `85-agentic-organizations/` | 📋 Planned (was Ch 83) |
+| 86 | Agentic Commerce | `86-agentic-commerce/` | 📋 Planned (was Ch 84) |
 
 ---
 
@@ -217,12 +224,12 @@ This document provides chapter titles and topics. For exact file paths, naming c
 - Chapter folders use **lowercase-with-hyphens**
 - Part folders use **Title-Case-With-Hyphens**
 
-**Examples** (based on actual structure):
+**Examples** (updated structure):
 - Chapter 1: `book-source/docs/01-Introducing-AI-Driven-Development/01-ai-development-revolution/`
-- Chapter 5: `book-source/docs/02-AI-Tool-Landscape/05-claude-code-features-and-workflows/`
-- Chapter 9: `book-source/docs/03-Markdown-Prompt-Context-Engineering/09-markdown-language-of-ai/`
-- Chapter 13: `book-source/docs/04-Python-Fundamentals/13-introduction-to-python/`
-- Chapter 30: `book-source/docs/05-Spec-Driven-Development/30-specification-driven-development-fundamentals/`
+- Chapter 13: `book-source/docs/04-SDD-RI-Fundamentals/13-specification-driven-development-fundamentals/`
+- Chapter 15: `book-source/docs/04-SDD-RI-Fundamentals/15-ai-product-business-intelligence-capstone/`
+- Chapter 16: `book-source/docs/05-Python-Fundamentals/16-python-uv-package-manager/`
+- Chapter 34: `book-source/docs/06-AI-Product-Leadership/34-ai-product-development-evaluation-first/`
 
 ---
 
@@ -236,4 +243,27 @@ This document provides chapter titles and topics. For exact file paths, naming c
 5. Match the title exactly in frontmatter
 6. Reference `.claude/output-styles/chapters.md` for formatting guidelines
 
-**Version**: Updated 2025-01-11 — Restructured to 12 parts, 83 chapters based on remaining work plan. Parts 1-5 implemented (33 chapters), Parts 6-12 planned (50 chapters).
+**Version**: Updated 2025-01-24 — Restructured to prioritize SDD-RI BEFORE Python, introduce business/product thinking early, and streamline Part 6 (AI Product Leadership) to 3 focused chapters.
+
+---
+
+## Migration Notes
+
+**Content to be moved:**
+- Old Ch 31 → New Ch 13 (rename directory)
+- Old Ch 32 → New Ch 14 (pivot content from Python to YouTube/Gemini)
+- Old Ch 33 → New Ch 35 (AI Orchestra)
+- Old Ch 13-30 → New Ch 16-33 (Python chapters, renumber only)
+
+**Content to be created:**
+- New Ch 15: AI Product & Business Intelligence + Capstone
+- New Ch 34: AI Product Development & Evaluation-First Mindset
+- New Ch 36: Product & Engineering Leadership
+
+**Content to be deleted:**
+- Old Ch 34 (Tessl) - framework-specific, not essential
+- Old Ch 45 (Building Effective Agents) - redundant with Part 4 RI + Part 6 Orchestra
+
+**Part folder renames:**
+- `04-Python-Fundamentals/` → `05-Python-Fundamentals/`
+- `05-Spec-Driven-Development/` → `04-SDD-RI-Fundamentals/` (and create `06-AI-Product-Leadership/`)
