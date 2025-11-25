@@ -130,7 +130,7 @@ The Docusaurus static site generator needs to fetch complete book content from P
 **MCP Server Architecture**
 
 - **FR-004**: System MUST implement MCP server using Python MCP SDK (FastMCP) with Stateless Streamable HTTP transport. Authentication via API key for MVP (OAuth deferred to future enhancement). Error handling with structured logging and Sentry integration.
-- **FR-005**: MCP server MUST expose 14 tools: `read_content`, `write_content` (upsert), `delete_content`, `upload_asset`, `get_asset`, `list_assets`, `add_summary`, `update_summary`, `get_summary`, `list_summaries`, `get_book_archive`, `list_books`, `glob_search`, `grep_search`, `get_audit_log`
+- **FR-005**: MCP server MUST expose 12 tools: `read_content`, `write_content` (upsert), `delete_content`, `read_summary`, `write_summary`, `delete_summary`, `upload_asset`, `get_asset`, `list_assets`, `get_book_archive`, `list_books`, `glob_search`, `grep_search`
 - **FR-006**: (DEFERRED) Authentication via API key in `Authorization` header for MVP. OAuth 2.0 implementation deferred to post-MVP. API key validated against `PANAVERSITY_API_KEY` environment variable.
 
 **Content Operations**
@@ -148,10 +148,9 @@ The Docusaurus static site generator needs to fetch complete book content from P
 
 **Summary Management (Storage Only)**
 
-- **FR-014**: `add_summary` tool MUST create new summary markdown file at path `books/[book-id]/chapters/[chapter-id]/.summary.md`, write content, and log operation to audit trail
-- **FR-015**: `update_summary` tool MUST overwrite existing summary file at specified path and log operation to audit trail
-- **FR-016**: `get_summary` tool MUST return summary markdown content plus metadata: {file_size, last_modified, storage_backend, file_hash_sha256, path}
-- **FR-017**: `list_summaries` tool MUST return array of all summary files for specified book or chapter with metadata: [{path, file_size, last_modified}]
+- **FR-014**: `write_summary` tool MUST create or update summary markdown file at path `books/[book-id]/chapters/[chapter-id]/.summary.md` (idempotent upsert), write content, and log operation to audit trail
+- **FR-015**: `read_summary` tool MUST return summary markdown content plus metadata: {file_size, last_modified, storage_backend, sha256, path, content}
+- **FR-016**: `delete_summary` tool MUST remove summary file at specified path and log operation to audit trail. Returns error if summary does not exist.
 
 **Audit Trail (AgentFS Pattern)**
 
