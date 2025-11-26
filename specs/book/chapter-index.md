@@ -207,11 +207,27 @@ Emerging patterns and organizational transformation
 
 ---
 
-## Part 13: Physical AI & Humanoid Robotics (Chapters TBD)
+## Part 13: Physical AI & Humanoid Robotics (Chapters 85-TBD)
 
 Physical AI systems and humanoid robotics integration
 
 *Content planned - chapter numbers to be assigned*
+
+---
+
+## Part 14: Capstone — Building AI-Native Books (Chapters 86-92)
+
+Build the AI-native book platform you're learning from
+
+| # | Chapter Title | File Name | Status |
+|---|---------------|-----------|--------|
+| 86 | Building on Top of Docusaurus | `86-building-on-docusaurus/` | Planned |
+| 87 | Book Reusable Intelligence Components | `87-book-rii-components/` | Planned |
+| 88 | Storage — File System for Agents (PanaversityFS) | `88-storage-panaversityfs/` | Planned |
+| 89 | Auth — BetterAuth Multi-Tenant SSO | `89-auth-betterauth-sso/` | Planned |
+| 90 | RAG — Using Qdrant | `90-rag-qdrant/` | Planned |
+| 91 | Personalized Content | `91-personalized-content/` | Planned |
+| 92 | Chatbot — ChatKit + Agents SDK | `92-chatbot-chatkit-agents/` | Planned |
 
 ---
 
