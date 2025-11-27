@@ -5,11 +5,11 @@
 Reference this document when naming and organizing chapter files. Use the chapter number in directory names: `[chapter-number]-[chapter-name]/`
 
 **Implementation Status**:
-- **Implemented** (33 chapters): Chapters 1-7, 9-13, 16-33
-  - **Parts 1-3**: Complete (11 chapters)
-  - **Part 4 (SDD-RI Fundamentals)**: Ch 13, Ch 14 needs pivot, Ch 15 NEW
+- **Implemented** (34 chapters): Chapters 1-7, 9-14, 16-33
+  - **Parts 1-3**: Complete (12 chapters)
+  - **Part 4 (SDD-RI Fundamentals)**: Ch 13-14 complete, Ch 15 NEW
   - **Part 5 (Python Fundamentals)**: Complete content exists, needs renumbering (18 chapters, 16-33)
-- **Planned** (52 chapters): Chapter 8, Chapters 14-15, 34-85 are planned but not yet created
+- **Planned** (51 chapters): Chapter 8, Chapter 15, 34-85 are planned but not yet created
 
 ---
 
@@ -59,7 +59,7 @@ Learn specification-driven development with reusable intelligence, culminating i
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
 | 13 | Understanding Spec-Driven Development with Reusable Intelligence | `13-specification-driven-development-fundamentals/` | Implemented |
-| 14 | SDD-RI Hands-On: YouTube Content Workflow with Gemini | `14-youtube-content-workflow-gemini/` | Needs Pivot |
+| 14 | Master Spec-Kit Plus | `14-spec-kit-plus-hands-on/` | Implemented |
 | 15 | AI Product & Business Intelligence + Capstone | `15-ai-product-business-intelligence-capstone/` | NEW - Planned |
 
 ---
